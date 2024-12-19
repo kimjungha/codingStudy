@@ -1,9 +1,8 @@
+package src;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Stack;
 
-public class stackInfo {
+public class StackInfo {
     /**
      * 프로그래머스 : 올바른 괄호
      * 스택 push, pop, isEmpty 익숙해지기
