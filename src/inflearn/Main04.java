@@ -1,4 +1,4 @@
-package src;
+package src.inflearn;
 
 import java.util.ArrayList;
 import java.util.Scanner;
