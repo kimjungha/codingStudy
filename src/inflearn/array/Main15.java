@@ -3,6 +3,7 @@ package src.inflearn.array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/** 가위 바위 보 */
 public class Main15 {
     public static void main(String[] args) {
         Main15 T = new Main15();
@@ -44,6 +45,12 @@ public class Main15 {
                 }
             }
         }
+
+//      A 의 입장에서 이기는 모든 케이스를 if에 해두고 나머지를 생각해도 됌 (한 편에서만 생각해보기)
+//        for (int i=0; i<aInfo.length; i++){
+//            if(aInfo[i]==bInfo[i]) answer.add("D");
+//            else if (a[i]==1) {}
+//        }
         return answer;
     }
 }
