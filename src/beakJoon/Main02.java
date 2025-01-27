@@ -1,4 +1,4 @@
-package src.beakJun;
+package src.beakJoon;
 
 import java.util.Scanner;
 
