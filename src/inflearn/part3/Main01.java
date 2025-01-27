@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 //강의 part 3 1번 문제 > 두 배열 합치기
-// 투 포인터 알고리즘으로 접근
+// 투 포인터 알고리즘으로 접 => 시간복잡도 o(n)
 public class Main01 {
     public static void main(String[] args) {
         Main01 T = new Main01();
