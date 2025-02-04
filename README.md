@@ -16,5 +16,26 @@
 
 각 포인터는 배열범위내에서 한 방향으로만 움직이는 전체 배열 크기 n 에 비례하는 선형적 방문만 이뤄짐
 
+### for 문안에 while() 이 있어도 시간 복잡도 O(n)인 이유
+for 문에서 n 번 돌고 + while도 선행적으로 n번 => 뒤로 돌아가지 않음
+n *2 = 2n 번
+
+상수는 빠지게 되므로 O(n)이 된다.
+``` 
+for (int rt = 0; rt < numArr.length; rt++) {
+    sum += numArr[rt];
+    if(sum==searchNum){
+       answer++;
+    }
+    while (sum>=searchNum){
+      sum-=numArr[lt++];
+      if(sum==searchNum)answer++;
+    } 
+ }
+``` 
+
+다중포문은 다시 돌아가서 돌기때문에 n*n 이 되는것이다. 
+
+
 
 
