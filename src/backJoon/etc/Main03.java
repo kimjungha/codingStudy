@@ -1,4 +1,4 @@
-package src.beakJoon;
+package src.backJoon.etc;
 
 import java.util.Scanner;
 import java.util.Stack;

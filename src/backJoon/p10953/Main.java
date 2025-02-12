@@ -1,30 +1,31 @@
-package src.beakJoon;
-
-import java.util.Scanner;
-
+package src.backJoon.p10953;
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                      :::    :::    :::     */
-/*   Problem Number: 1000                              :+:    :+:      :+:    */
+/*   Problem Number: 10953                             :+:    :+:      :+:    */
 /*                                                    +:+    +:+        +:+   */
 /*   By: kimg2311 <boj.kr/u/kimg2311>                +#+    +#+          +#+  */
 /*                                                  +#+      +#+        +#+   */
-/*   https://boj.kr/1000                           #+#        #+#      #+#    */
-/*   Solved: 2025/02/12 11:38:34 by kimg2311      ###          ###   ##.kr    */
+/*   https://boj.kr/10953                          #+#        #+#      #+#    */
+/*   Solved: 2025/02/12 15:10:09 by kimg2311      ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
-public class Main05 {
+import java.util.Scanner;
+
+public class Main {
+
     public static void main(String[] args) {
-        Main05 T =new Main05();
         Scanner kb = new Scanner(System.in);
-        int a = kb.nextInt();
-        int b = kb.nextInt();
+        int cnt =kb.nextInt();
+        for(int i =0; i<cnt; i++){
+            String line = kb.nextLine();
+            String[] num = line.split(",");
+            // System.out.print(num[0]);
+            // System.out.print(num[1]);
+            // int a = kb.nextInt();
+            // int b = kb.nextInt();
+            // System.out.println(a+b);
+        }
 
-        System.out.println(T.soultion(a,b));
-    }
-
-    private int soultion(int a, int b) {
-        return a+b;
     }
 }
-
