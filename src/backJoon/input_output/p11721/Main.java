@@ -1,4 +1,4 @@
-package src.backJoon.p11721;
+package src.backJoon.input_output.p11721;
 
 import java.util.Scanner;
 // 문자열 갯수만큼 자를때 subString 사용, 마지막 index 처리 필요

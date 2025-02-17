@@ -1,4 +1,4 @@
-package src.backJoon.p2445;
+package src.backJoon.input_output.p2445;
 
 import java.util.Scanner;
 
