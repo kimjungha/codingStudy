@@ -1,4 +1,4 @@
-package src.backJoon.p1003;
+package src.backJoon.dp.p1003;
 
 import java.util.Arrays;
 import java.util.Scanner;
