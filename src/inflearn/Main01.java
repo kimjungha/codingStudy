@@ -31,7 +31,7 @@ public class Main01 {
         Main01 T = new Main01();
         Scanner kb = new Scanner(System.in);
         String str = kb.next(); //next() 문자열을 하나 읽음
-        char c = kb.next().charAt(0); //cha
+        char c = kb.next().charAt(0); 
         System.out.println(T.solution(str,c));
     }
 }
